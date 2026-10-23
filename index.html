@@ -37,6 +37,16 @@ dialog{padding:24px;width:min(790px,calc(100vw - 24px));max-height:calc(100dvh -
 @media(max-width:760px){.mascot-zone{width:min(287px,calc(100vw - 28px));right:14px;bottom:calc(var(--footer-h) - 2px)}.speech{font-size:16px;padding:15px 10px}.mascot-button,.mascot-image{width:140px;height:115px}.fallback-cat{width:107px;height:115px}.giphy-credit{right:144px;bottom:4px;font-size:7px}.sidebar-tools .tools-label{display:inline}.workspace{padding-bottom:calc(var(--footer-h) + 270px)}#tools-open{padding:14px 12px;min-width:0;width:100%}}
 
 @media(max-width:760px){aside.open{z-index:26}}
+/* Bông tuyết 6 cánh, thay cho chấm tròn */
+.snowflake {
+  --snow-shape: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2v20M3.34 7l17.32 10M3.34 17L20.66 7M9 4l3 3 3-3M9 20l3-3 3 3M3.57 10.6l4.1-1.1-1.1-4.1M17.43 18.6l-1.1-4.1 4.1-1.1M6.57 18.6l1.1-4.1-4.1-1.1M20.43 10.6l-4.1-1.1 1.1-4.1'/%3E%3C/svg%3E");
+
+  border-radius: 0;
+  background: var(--text);
+
+  -webkit-mask: var(--snow-shape) center / contain no-repeat;
+  mask: var(--snow-shape) center / contain no-repeat;
+}
 </style></head>
 <body>
 <header><button class="brand" data-page="home" aria-label="Con mèo của Pí Yeah"><span class="brand-mark" id="brand-cat"></span><span><strong>Con mèo của Pí Yeah</strong><small>DESIGN RESOURCE CENTER</small></span></button><div class="searchbox"><div class="searchline"><span aria-hidden="true">⌕</span><label for="search" class="sr-only" id="search-label">Tìm tài nguyên</label><input id="search" type="search" autocomplete="off" aria-controls="results" aria-expanded="false"><kbd>Ctrl K</kbd></div><div id="results" class="search-results" hidden></div></div><div class="header-actions"><button class="btn icon-btn" id="language">EN</button><button class="btn icon-btn" id="theme">☀</button><a class="btn primary visit" id="visit" target="_blank" rel="noopener noreferrer"></a><button class="btn icon-btn menu-toggle" id="menu" aria-controls="sidebar" aria-expanded="false">☰</button></div></header>
