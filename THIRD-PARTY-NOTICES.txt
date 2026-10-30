@@ -1,0 +1,24 @@
+Third-party software served locally with this static website
+
+QR Code Styling 1.9.2 — MIT
+https://github.com/kozakdenys/qr-code-styling
+assets/QR-Code-Styling-LICENSE.txt
+The pinned encoder is used for QR data. The UEL renderer draws individual rounded modules.
+
+PDF-Lib 1.17.1 — MIT
+https://github.com/Hopding/pdf-lib
+assets/PDF-Lib-LICENSE.txt
+
+fflate 0.8.2 — MIT
+https://github.com/101arrowz/fflate
+assets/fflate-LICENSE.txt
+
+PDF.js 6.4.299 — Apache-2.0
+https://github.com/mozilla/pdf.js
+assets/PDF-js-LICENSE.txt
+
+Lato — SIL Open Font License 1.1
+https://github.com/google/fonts/tree/main/ofl/lato
+assets/Lato-OFL.txt
+
+Original asset ownership and external resource links remain unchanged.
