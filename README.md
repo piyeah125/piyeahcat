@@ -1,6 +1,19 @@
-# Con mèo của Pí Yeah · Minimal
+# PIYEAH Assistant
 
-Bản giao diện mới, dùng nền và logo do Pí Yeah cung cấp. Bản gốc trên Desktop và website đang hoạt động không bị thay thế.
+Bản giao diện mới, dùng hai nền và hai logo do Pí Yeah cung cấp. Mặc định sáng, nhớ lựa chọn sáng/tối. Bản gốc trên Desktop và website đang hoạt động không bị thay thế.
+
+## Ảnh minh họa dịch vụ slide
+
+Thêm 4 ảnh PNG, tỷ lệ 16:9 (khuyến nghị 1920 × 1080 px) vào `assets/`:
+
+- `slide-demo-01.png`
+- `slide-demo-02.png`
+- `slide-demo-03.png`
+- `slide-demo-04.png`
+
+Chọn “Xem chi tiết” cạnh “Liên hệ” để xem dịch vụ. Khu ảnh chỉ hiện các file đã có, không hiển thị ảnh lỗi. Hai nút mũi tên chuyển ảnh. Giá hiển thị đúng cấu hình đã chốt: “Chỉ từ 300k/slide”.
+
+`assistant.js` quản lý dịch vụ, liên hệ, chế độ sáng/tối, tin nhắn ngẫu nhiên và hiệu ứng nhẹ. `assistant.css` định nghĩa bố cục và hai chế độ. Hiệu ứng rơi và chuyển tin tự tắt khi bật chế độ giảm chuyển động, dừng khi tab không hoạt động.
 
 ## Đưa lên GitHub Pages
 
