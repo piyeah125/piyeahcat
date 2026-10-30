@@ -22,3 +22,5 @@ https://github.com/google/fonts/tree/main/ofl/lato
 assets/Lato-OFL.txt
 
 Original asset ownership and external resource links remain unchanged.
+
+UPNG.js — Photopea — MIT. See assets/UPNG-LICENSE.txt. Source: https://github.com/photopea/UPNG.js . PNG encoding runs in a local worker; fflate supplies DEFLATE.
