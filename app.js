@@ -17,6 +17,7 @@ const toolEntries=[
  ['contrast','Đo tương phản','Kiểm tra độ rõ của màu chữ trên nền.','do tuong phan mau chu nen contrast wcag','◐'],
  ['nameplate','Tạo bảng tên','Chọn phôi, nhập thông tin và xuất bảng tên UEL.','tao bang ten de ban ho ten chuc vu nameplate','▱']
 ].map(([tool,name,desc,aliases,icon])=>({tool,name,desc,aliases,icon,kind:'Công cụ'}));
+toolEntries.splice(1,0,...toolEntries.splice(toolEntries.findIndex(e=>e.tool==='nameplate'),1));
 const entries=[...toolEntries];
 function add(o){if(o.name)entries.push({kind:'Tài nguyên',desc:'',aliases:'',...o})}
 function loadResources(){
